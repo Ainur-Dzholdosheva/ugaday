@@ -33,9 +33,10 @@ some_string="Adverts"
 some=some_string[2:5]
 print(some)
 
+# четвертый
 a="Adilet"
 b="Aidana"
-
-# Четвертый
-c=a[0]+b[0]+b[1]+a[1]+b[2]+a[2]+b[3]+a[3]+b[4]+a[4]+b[5]+a[5]
-print(c)
+for i in range(len(a)):
+    a+=b[i]
+    c=(b[i]+a[i])
+    print(c)
