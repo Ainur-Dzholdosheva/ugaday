@@ -1,10 +1,10 @@
-# Первое
+# Задание 1
 lst = [92, 91, 49, 87, 74, 20, 94, 12, 64, 36, 97, 2, 96, 40, 97, 36, 32, 22, 80, 83, 49, 52, 62, 31,
 55, 86, 84, 1, 22, 15, 52, 18, 78, 92, 21, 9, 85, 89, 54, 99, 80, 7, 4, 31, 30, 28, 59, 35, 72, 33]
 dic=dict(enumerate(lst))
 print(dic)
 
-# Второе
+# Задание 2
 import random
 
 guess_number=0
@@ -28,7 +28,7 @@ if guess == number:
 elif guess > 5:
     print("Все, вы не выиграли.Игра завершилась")
 
-# Третий
+# Задание 3
 some_string="Advertsrrrr"
 length = len(some_string)
 if length>7:
@@ -39,7 +39,7 @@ else:
     
 
 
-# четвертый
+# Задание 4
 a="Adilet"
 b="Aidana"
 for i in range(len(a)):
