@@ -29,9 +29,15 @@ elif guess > 5:
     print("Все, вы не выиграли.Игра завершилась")
 
 # Третий
-some_string="Adverts"
-some=some_string[2:5]
-print(some)
+some_string="Advertsrrrr"
+length = len(some_string)
+if length>7:
+    r=[some_string[i:i+3] for i in range(0, len(some_string), 3)]
+    print(r[1])
+else:
+    print("строка меньше 9")
+    
+
 
 # четвертый
 a="Adilet"
